@@ -2,10 +2,10 @@
 
 # Sobre o projeto
 
-link do projeto no heroku
+https://fintech-p8kq.vercel.app/
 
 Fintech é um dashboard de vendas, funcional tanto no desktop quanto no mobile. <br>
-O projeto conta com duas telas, uma onde mostra o resumo das vendas de acordo com o mês escolhido e a outra que mostra mais detalhadamente as informações sobre as vendas como por exemplo o nome do cliente e o valor. 
+O projeto realiza um fetch em uma API com informações fictícias sobre vendas e distribui em duas telas, uma onde mostra o resumo das vendas de acordo com o mês escolhido e a outra que mostra mais detalhadamente as informações sobre as vendas como por exemplo o nome do cliente e o valor. 
 Além disso, na página de resumos é apresentado um gráfico que mostra estatísticas sobre as vendas.
 
 ## Layout web
