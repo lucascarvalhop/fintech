@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# Fintech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sobre o projeto
 
-Currently, two official plugins are available:
+link do projeto no heroku
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fintech é um dashboard de vendas, funcional tanto no desktop quanto no mobile. <br>
+O projeto conta com duas telas, uma onde mostra o resumo das vendas de acordo com o mês escolhido e a outra que mostra mais detalhadamente as informações sobre as vendas como por exemplo o nome do cliente e o valor. 
+Além disso, na página de resumos é apresentado um gráfico que mostra estatísticas sobre as vendas.
 
-## Expanding the ESLint configuration
+## Layout web
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![image](https://github.com/user-attachments/assets/865390b9-9cf7-40c3-9af8-e2f4fb9b3472)
 
-- Configure the top-level `parserOptions` property like this:
+![image](https://github.com/user-attachments/assets/a0de5210-5466-43ff-9db7-8d0ffcd1aee0)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+# Layout mobile
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![image](https://github.com/user-attachments/assets/f1df0696-e8fd-4ab1-877e-7ce5f9c27c1b) ![image](https://github.com/user-attachments/assets/16b34af0-ed4d-4600-ad44-f64380bc1d45)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+# Tecnologias utilizadas
+  - Html5
+  - Css3
+  - TypeScript
+  - React
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# Bibliotecas utilizadas
+ - Recharts
+
+## Creditos
+  - André Rafael (origamid) mentor e autor original do projeto.
+
+ # Autor
+
+Lucas Carvalho
+
+https://www.linkedin.com/in/lucaspcarvalho/
